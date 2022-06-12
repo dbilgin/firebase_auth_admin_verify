@@ -1,0 +1,17 @@
+name: firebase_auth_admin_verify
+description: A Firebase auth JWT verification tool, conforming to the standards set up by Firebase itself.
+version: 1.0.0
+homepage: https://github.com/dbilgin/firebase_auth_admin_verify
+
+environment:
+  sdk: '>=2.17.1 <3.0.0'
+
+dependencies:
+  http: ^0.13.4
+  jose: ^0.3.2
+
+dev_dependencies:
+  analyzer: ^4.1.0
+  mocktail: ^0.3.0
+  lints: ^2.0.0
+  test: ^1.21.1
